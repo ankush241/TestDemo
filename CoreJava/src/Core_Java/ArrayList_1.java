@@ -15,7 +15,7 @@ public class ArrayList_1 {
 		a.add("Suman");
 		
 		a.add(0, "Xoxo");
-		
+		a.add(2, "Raja");
 		//a.remove(1);
 		//System.out.println(a.contains("AAA"));
 		System.out.println(a.indexOf("Prasun"));
