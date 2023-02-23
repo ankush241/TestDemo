@@ -1,0 +1,21 @@
+package Core_Java;
+
+public class SuperDemo {
+
+	public void getData()
+	{
+		int x=10;
+		System.out.println("Parent Class");
+	}
+	
+	public class SubDemo {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

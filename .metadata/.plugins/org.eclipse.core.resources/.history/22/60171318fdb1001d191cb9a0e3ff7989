@@ -1,0 +1,12 @@
+package Core_Java;
+
+public class ArrayList_1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList a = new ArrayList();
+		
+
+	}
+
+}

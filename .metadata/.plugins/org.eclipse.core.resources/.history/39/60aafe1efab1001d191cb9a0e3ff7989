@@ -1,0 +1,28 @@
+package Core_Java;
+
+public class SuperDemo {
+
+	public void getData()
+	{
+		
+		System.out.println("Parent Class");
+	}
+	
+	public class SubDemo extends SuperDemo
+	{
+		public void show()
+		{
+			super.getData();
+			System.out.println("Child Class Object");
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		SubDemo sd = new SubDemo();
+		
+
+	}
+
+}

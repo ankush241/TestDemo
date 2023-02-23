@@ -1,0 +1,27 @@
+package Core_Java;
+
+public class ConstructorDemo {
+
+	public ConstructorDemo()
+	{
+		System.out.println("Hello,I am the Constructor");
+	}
+	public ConstructorDemo(int a, int b)
+	{
+		System.out.println("the values are : \t",a,b);
+	}
+	public void show()
+	{
+		System.out.println("Hello, I am the method");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		ConstructorDemo cd = new ConstructorDemo();
+		ConstructorDemo cd1 = new ConstructorDemo(10,20);
+		cd.show();
+		
+	}
+
+}

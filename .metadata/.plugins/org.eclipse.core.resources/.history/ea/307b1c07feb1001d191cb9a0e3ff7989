@@ -1,0 +1,27 @@
+package Core_Java;
+
+import java.util.ArrayList;
+
+public class ArrayList_1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> a = new ArrayList<String>();
+		
+		a.add("Ankush");
+		a.add("Rahul");
+		a.add("Prasun");
+		
+		a.add(0, "Xoxo");
+		//a.remove(1);
+		//System.out.println(a.contains("AAA"));
+		
+		//System.out.println(a);
+
+		for (String i : a)
+		{
+			System.out.println(i);
+		}
+	}
+
+}

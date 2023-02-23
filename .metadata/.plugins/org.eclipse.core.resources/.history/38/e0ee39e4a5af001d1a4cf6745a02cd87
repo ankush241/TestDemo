@@ -1,0 +1,22 @@
+package Core_Java;
+
+public class ConstructorDemo {
+
+	public ConstructorDemo
+	{
+		
+	}
+	
+	public void show()
+	{
+		System.out.println("Hello, I am the method");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

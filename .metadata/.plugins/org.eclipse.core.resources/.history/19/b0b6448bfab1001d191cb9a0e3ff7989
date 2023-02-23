@@ -1,0 +1,15 @@
+package Core_Java;
+
+
+public class StaticDemo {
+
+	int rollno;
+	String name;
+	Static String college= "MAKAUT";
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

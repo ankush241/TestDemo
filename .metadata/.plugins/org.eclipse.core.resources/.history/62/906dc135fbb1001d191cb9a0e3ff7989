@@ -1,0 +1,25 @@
+package Core_Java;
+
+
+public class StaticDemo {
+
+	int rollno;
+	String name;
+	static String college= "MAKAUT";
+	
+	StaticDemo(int rollno, String name)
+	{
+		this.rollno= rollno;
+		this.name= name;
+	}
+	public void show()
+	{
+		System.out.println(rollno + "\t" +name+ "\t" +college);
+	}
+	public static void main(String[] args) {
+		
+		StaticDemo sd = new StaticDemo(10, "Sayan");
+		sd.show();
+	}
+
+}
