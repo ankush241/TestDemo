@@ -1,0 +1,21 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment__Practice1 {
+
+	public static void main(String[] args) {
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		driver.findElement(By.className("form-control ng-untouched ng-pristine ng-invalid")).sendKeys("Ankush Chatterjee");
+		driver.findElement(By.xpath("/html/body/app-root/form-comp/div/form/div[2]/input")).sendKeys("ankushchatterjee456@gmail.com");
+		driver.findElement(By.id("exampleInputPassword1")).sendKeys("ankush24@");
+		driver.findElement(By.className("form-check-label")).click();
+		driver.findElement(By.id("exampleFormControlSelect1")).click();
+		driver.findElement(By.xpath("//*[@id=\"exampleFormControlSelect1\"]/option[1]")).click();
+		
+
+	}
+
+}

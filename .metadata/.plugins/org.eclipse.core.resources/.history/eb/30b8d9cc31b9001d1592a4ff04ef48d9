@@ -1,0 +1,24 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment__Practice1 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/app-root/form-comp/div/form/div[1]/input")).sendKeys("Ankush Chatterjee");
+		driver.findElement(By.xpath("/html/body/app-root/form-comp/div/form/div[2]/input")).sendKeys("ankushchatterjee456@gmail.com");
+		driver.findElement(By.id("exampleInputPassword1")).sendKeys("ankush24@");
+		driver.findElement(By.className("form-check-label")).click();
+		driver.findElement(By.id("exampleFormControlSelect1")).click();
+		driver.findElement(By.xpath("//*[@id=\"exampleFormControlSelect1\"]/option[1]")).click();
+		driver.findElement(By.id("inlineRadio2")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.className("btn btn-success")).click();
+
+	}
+
+}

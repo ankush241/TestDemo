@@ -1,0 +1,16 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment__Practice1 {
+
+	public static void main(String[] args) {
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		driver.findElement(By.className("form-control ng-untouched ng-pristine ng-invalid")).sendKeys("Ankush Chatterjee");
+		
+
+	}
+
+}
