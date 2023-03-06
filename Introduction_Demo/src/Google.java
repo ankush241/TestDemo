@@ -4,15 +4,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Google {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")).sendKeys("Ankush Chatterjee");
-		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]")).click();
+		driver.findElement(By.className("gLFyf")).sendKeys("Ankush Chatterjee");
+		Thread.sleep(2000);
+		driver.findElement(By.className("gNO89b")).click();
 		
 
 	}
