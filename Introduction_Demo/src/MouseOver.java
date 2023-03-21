@@ -1,5 +1,8 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class MouseOver {
 
@@ -8,7 +11,9 @@ public class MouseOver {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
 		Thread.sleep(2000);
-		
+		WebElement w = driver.findElement(By.id("nav-link-accountList"));
+		Actions a =new Actions (driver);
+		a.moveToElement(w).build().perform();
 
 	}
 

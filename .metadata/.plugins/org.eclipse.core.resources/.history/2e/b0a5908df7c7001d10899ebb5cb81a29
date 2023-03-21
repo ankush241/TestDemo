@@ -1,0 +1,14 @@
+
+public class MouseOver {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.amazon.com/");
+		Thread.sleep(2000);
+		WebElement w = driver.findElement(By.id("nav-link-accountList"));
+		Actions a =new Actions (driver);
+		a.moveToElement(w).build().perform();
+
+	}
+
+}
