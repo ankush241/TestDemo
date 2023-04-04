@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-26T02:10:52 IST" name="My_Practice" finished-at="2023-03-26T02:10:52 IST" duration-ms="103">
+  <suite started-at="2023-04-01T15:03:18 IST" name="My_Practice" finished-at="2023-04-01T15:03:18 IST" duration-ms="176">
     <groups>
     </groups>
-    <test started-at="2023-03-26T02:10:52 IST" name="TestDemo1" finished-at="2023-03-26T02:10:52 IST" duration-ms="46">
+    <test started-at="2023-04-01T15:03:18 IST" name="TestDemo1" finished-at="2023-04-01T15:03:18 IST" duration-ms="66">
       <class name="test.Example2">
-        <test-method is-config="true" signature="MobileSignin()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-03-26T02:10:52 IST" name="MobileSignin" finished-at="2023-03-26T02:10:52 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="MobileSignin()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-04-01T15:03:18 IST" name="MobileSignin" finished-at="2023-04-01T15:03:18 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileSignin -->
-        <test-method signature="MobileLogin()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-03-26T02:10:52 IST" name="MobileLogin" finished-at="2023-03-26T02:10:52 IST" duration-ms="1" status="PASS">
+        <test-method signature="MobileLogin()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-04-01T15:03:18 IST" name="MobileLogin" finished-at="2023-04-01T15:03:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLogin -->
-        <test-method signature="TestCase3()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-03-26T02:10:52 IST" name="TestCase3" finished-at="2023-03-26T02:10:52 IST" duration-ms="0" status="PASS">
+        <test-method signature="TestCase3()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-04-01T15:03:18 IST" name="TestCase3" finished-at="2023-04-01T15:03:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase3 -->
-        <test-method signature="TestCase4()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-03-26T02:10:52 IST" name="TestCase4" finished-at="2023-03-26T02:10:52 IST" duration-ms="1" status="PASS">
+        <test-method signature="TestCase4()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-04-01T15:03:18 IST" name="TestCase4" finished-at="2023-04-01T15:03:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase4 -->
-        <test-method signature="TestCase5()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-03-26T02:10:52 IST" name="TestCase5" finished-at="2023-03-26T02:10:52 IST" duration-ms="1" status="PASS">
+        <test-method signature="TestCase5()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-04-01T15:03:18 IST" name="TestCase5" finished-at="2023-04-01T15:03:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase5 -->
-        <test-method signature="TestCase6()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-03-26T02:10:52 IST" name="TestCase6" finished-at="2023-03-26T02:10:52 IST" duration-ms="1" status="PASS">
+        <test-method signature="TestCase6()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-04-01T15:03:18 IST" name="TestCase6" finished-at="2023-04-01T15:03:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase6 -->
       </class> <!-- test.Example2 -->
       <class name="test.Example1">
-        <test-method signature="TestCase1()[pri:0, instance:test.Example1@13b13b5d]" started-at="2023-03-26T02:10:52 IST" name="TestCase1" finished-at="2023-03-26T02:10:52 IST" duration-ms="5" status="PASS">
+        <test-method signature="TestCase1()[pri:0, instance:test.Example1@13b13b5d]" started-at="2023-04-01T15:03:18 IST" name="TestCase1" finished-at="2023-04-01T15:03:18 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase1 -->
-        <test-method signature="TestCase2()[pri:0, instance:test.Example1@13b13b5d]" started-at="2023-03-26T02:10:52 IST" name="TestCase2" finished-at="2023-03-26T02:10:52 IST" duration-ms="1" status="PASS">
+        <test-method signature="TestCase2()[pri:0, instance:test.Example1@13b13b5d]" started-at="2023-04-01T15:03:18 IST" name="TestCase2" finished-at="2023-04-01T15:03:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase2 -->
       </class> <!-- test.Example1 -->
     </test> <!-- TestDemo1 -->
-    <test started-at="2023-03-26T02:10:52 IST" name="TestDemo2" finished-at="2023-03-26T02:10:52 IST" duration-ms="5">
+    <test started-at="2023-04-01T15:03:18 IST" name="TestDemo2" finished-at="2023-04-01T15:03:18 IST" duration-ms="12">
       <class name="test.Example2">
-        <test-method is-config="true" signature="MobileLogout()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-03-26T02:10:52 IST" name="MobileLogout" finished-at="2023-03-26T02:10:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="MobileLogout()[pri:0, instance:test.Example2@1cbb87f3]" started-at="2023-04-01T15:03:18 IST" name="MobileLogout" finished-at="2023-04-01T15:03:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLogout -->
       </class> <!-- test.Example2 -->
       <class name="test.Example3">
-        <test-method signature="FacebookLogin()[pri:0, instance:test.Example3@16a0ee18]" started-at="2023-03-26T02:10:52 IST" name="FacebookLogin" finished-at="2023-03-26T02:10:52 IST" duration-ms="0" status="PASS">
+        <test-method signature="FacebookLogin()[pri:0, instance:test.Example3@3d6f0054]" started-at="2023-04-01T15:03:18 IST" name="FacebookLogin" finished-at="2023-04-01T15:03:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FacebookLogin -->
-        <test-method signature="FacebookLogout()[pri:0, instance:test.Example3@16a0ee18]" started-at="2023-03-26T02:10:52 IST" name="FacebookLogout" finished-at="2023-03-26T02:10:52 IST" duration-ms="0" status="PASS">
+        <test-method signature="FacebookLogout()[pri:0, instance:test.Example3@3d6f0054]" started-at="2023-04-01T15:03:18 IST" name="FacebookLogout" finished-at="2023-04-01T15:03:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FacebookLogout -->
-        <test-method signature="FacebookRegistration()[pri:0, instance:test.Example3@16a0ee18]" started-at="2023-03-26T02:10:52 IST" name="FacebookRegistration" finished-at="2023-03-26T02:10:52 IST" duration-ms="0" status="PASS">
+        <test-method signature="FacebookRegistration()[pri:0, instance:test.Example3@3d6f0054]" started-at="2023-04-01T15:03:18 IST" name="FacebookRegistration" finished-at="2023-04-01T15:03:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FacebookRegistration -->
-        <test-method signature="Facebooksignin()[pri:0, instance:test.Example3@16a0ee18]" started-at="2023-03-26T02:10:52 IST" name="Facebooksignin" finished-at="2023-03-26T02:10:52 IST" duration-ms="1" status="PASS">
+        <test-method signature="Facebooksignin()[pri:0, instance:test.Example3@3d6f0054]" started-at="2023-04-01T15:03:18 IST" name="Facebooksignin" finished-at="2023-04-01T15:03:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Facebooksignin -->
